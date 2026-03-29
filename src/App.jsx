@@ -37,6 +37,10 @@ function App() {
           Un frontend React modern, rapid și elegant, creat special pentru proiectul tău. Simplu, dar puternic.
         </p>
 
+        <div className="hello-world" style={{ marginBottom: '1.5rem', fontSize: '1.25rem', fontWeight: 'bold' }}>
+          Hello World!
+        </div>
+
         <div style={{ display: 'flex', gap: '1rem' }}>
           <button className="btn" onClick={() => setCount((count) => count + 1)}>
             <Zap size={18} />
